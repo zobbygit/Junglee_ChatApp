@@ -135,6 +135,18 @@ npm run dev</code></pre>
 <pre><code>cd client
 npm run dev</code></pre>
 
+<h3>7. Configure Environment Variables</h3>
+
+<h4>Frontend — <code>client/.env</code></h4>
+<pre><code>VITE_SERVER_URL="http://localhost:8747"</code></pre>
+
+<h4>Backend — <code>server/.env</code></h4>
+<pre><code>PORT=8747
+JWT_KEY="Secret_key_for_JWT_tokens"
+ORIGIN="http://localhost:5173"
+DATABASE_URL="your mongodb database"</code></pre>
+
+
 <h2>🔄 Application Flow</h2>
 <pre>
 User
