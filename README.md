@@ -110,7 +110,7 @@ chat/
 <h2>🚀 Getting Started</h2>
 
 <h3>1. Clone the Repository</h3>
-<pre><code>git clone &lt;your-repository-url&gt;
+<pre><code>git clone https://github.com/zobbygit/Junglee_ChatApp;
 cd chat</code></pre>
 
 <h3>2. Install Frontend Dependencies</h3>
